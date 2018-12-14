@@ -6,5 +6,10 @@ pipeline {
         echo 'Build the Software'
       }
     }
+    stage('Pipeline setting') {
+      steps {
+        sleep 5
+      }
+    }
   }
 }
