@@ -11,10 +11,5 @@ pipeline {
         sh 'echo \'test completed\''
       }
     }
-    stage('Publish event') {
-      steps {
-        echo 'testing completed'
-      }
-    }
   }
 }
