@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Publish event') {
       steps {
-        sh 'testing completed'
+        echo 'testing completed'
       }
     }
   }
